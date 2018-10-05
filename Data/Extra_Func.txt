@@ -1,0 +1,62 @@
+####################################################################
+###Anova Function#########################
+# #Function
+# def anova_test(df,target_var):
+#     #Season 
+#     grup = pd.unique(df['season'].values)
+#     dic = {i:df[target_var][df['season'] == i] for i in grup}
+#     f,p = stats.f_oneway(dic[1], dic[2],dic[3], dic[4])
+#     print('season ======= pvalue :- {}'.format(p))
+
+#     #yr
+#     grup = pd.unique(df['yr'].values)
+#     dic = {i:df[target_var][df['yr'] == i] for i in grup}
+#     f,p = stats.f_oneway(dic[0], dic[1])
+#     print('yr ======= pvalue :- {}'.format(p))
+
+#     #mnth
+#     grup = pd.unique(df['mnth'].values)
+#     dic = {i:df[target_var][df['mnth'] == i] for i in grup}
+#     f,p = stats.f_oneway(dic[1], dic[2], dic[3], dic[4], dic[5], dic[6], dic[7], dic[8], dic[9], dic[10], dic[11], dic[12])
+#     print('mnth ======= pvalue :- {}'.format(p))
+
+#     #holiday
+#     grup = pd.unique(df['holiday'].values)
+#     dic = {i:df[target_var][df['holiday'] == i] for i in grup}
+#     f,p = stats.f_oneway(dic[0], dic[1])
+#     print('holiday ======= pvalue :- {}'.format(p))
+
+#     #weekday 
+#     grup = pd.unique(df['weekday'].values)
+#     dic = {i:df[target_var][df['weekday'] == i] for i in grup}
+#     f,p = stats.f_oneway(dic[0], dic[1], dic[2], dic[3], dic[4], dic[5], dic[6])
+#     print('weekday ======= pvalue :- {}'.format(p))
+
+#     #Workingday
+#     grup = pd.unique(df['workingday'].values)
+#     dic = {i:df[target_var][df['workingday'] == i] for i in grup}
+#     f,p = stats.f_oneway(dic[0], dic[1])
+#     print('workingday ======= pvalue :- {}'.format(p))
+
+#     #Weathersit
+#     grup = pd.unique(df['weathersit'].values)
+#     dic = {i:df[target_var][df['weathersit'] == i] for i in grup}
+#     f,p = stats.f_oneway(dic[1], dic[2], dic[3])
+#     print('weathersit ======= pvalue :- {}'.format(p))
+    
+#     #Weekend
+#     grup = pd.unique(df['dteday'].values)
+#     dic = {i:df[target_var][df['dteday'] == i] for i in grup}
+#     f,p = stats.f_oneway(dic[1], dic[2],dic[3], dic[4],dic[5], dic[6],dic[7], dic[8],dic[9], dic[10],dic[11],\
+#                          dic[12],dic[13], dic[14],dic[15], dic[16],dic[17], dic[18],dic[19], dic[20],dic[21], \
+#                          dic[22],dic[23], dic[24],dic[25], dic[26],dic[27], dic[28],dic[29], dic[30],dic[31])
+#     print('dteday ======= pvalue :- {}'.format(p))
+    
+#     ##Weekend
+#     # grup = pd.unique(df['weekend'].values)
+#     # dic = {i:df[target_var][df['weekend'] == i] for i in grup}
+#     # f,p = stats.f_oneway(dic[0], dic[1])
+#     # print('weekend ======= pvalue :- {}'.format(p))
+
+########################################################################################
+
